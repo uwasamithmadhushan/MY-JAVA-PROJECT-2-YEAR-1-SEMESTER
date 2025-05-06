@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Settings Page</title>
+    <link rel="stylesheet" href="settings.css">
+    <link rel="stylesheet" href="footer.css">
+</head>
+<body>
+    <header>
+        <h1><b>APPMOSPHERE</b></h1>
+    </header>    
+<br>
+<br>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Education</a></li>
+            <li><a href="#">Business</a></li>
+            <li><a href="#">Game</a></li>
+            <li><a href="#">Photo & video</a></li>
+            <li><a href="#">Health & Fitness</a></li>
+        </ul>
+    </nav>
+
+    <h1>Settings</h1>
+
+    <div class="dropdown">
+        <button>General</button>
+        <div class="content">
+            <a href="#">Notification settings</a>
+            <a href="#">Themes</a>
+        </div>
+    </div>
+
+    <div class="dropdown">
+        <button>Network preferences</button>
+        <div class="content">
+            <a href="#">Data usage for download</a>
+            <a href="#">Auto updates</a>
+        </div>
+    </div>
+
+    <div class="dropdown">
+        <button>Authentication</button>
+        <div class="content">
+            <a href="#">Fingerprint</a>
+            <a href="#">Purchase</a>
+        </div>
+    </div>
+
+    <div class="dropdown">
+        <button>Family</button>
+        <div class="content">
+            <a href="#">Parental control</a>
+            <a href="#">Parent guide</a>
+        </div>
+    </div>
+
+    <div class="dropdown">
+        <button>About</button>
+        <div class="content">
+            <a href="#">Play store</a>
+            <a href="#">build version</a>
+            <a href="#">device certification</a>
+        </div>
+    </div>
+
+    <!-- Dropdown style applied to the "Add New Application" button -->
+    <div class="dropdown" style="background-color: #005a80;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    color: white;">
+        <a href="http://localhost/application/form.php">Add New Application</a>
+    </div>
+
+    <footer>
+        <div class="footer-links">
+            <ul>
+                <li><a href="#">Developer Login</a></li>
+                <li><a href="#">Terms of Service</a></li>
+                <li><a href="privacy.html">Privacy Policy</a></li>
+            </ul>
+        </div>
+        <div class="footer-social-media">
+            <form action="">
+                <fieldset>
+                    <ul>
+                        <li>Support</li>
+                        <li>About Us</li>
+                        <li>Contact Us</li>
+                    </ul>
+                    <div>
+                        <a href="#"><img class="socialmedia" src="img/yt.jfif" alt="YouTube"></a>
+                        <a href="#"><img class="socialmedia" src="img/fb.png" alt="Facebook"></a>
+                        <a href="#"><img class="socialmedia" src="img/tw.jfif" alt="Twitter"></a>
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+        <div class="footer-language">
+            <img src="img/world.png" alt="" class="lng">
+            <select name="lan" id="lan">
+                <option value="Eng">English</option>
+                <option value="Sin">Sinhala</option>
+                <option value="Korean">Korean</option>
+                <option value="Chai">Chinese</option>
+            </select>
+        </div>
+    </footer>
+    <br>
+    <br>
+    <br>
+    <br>
+</body>
+</html>
